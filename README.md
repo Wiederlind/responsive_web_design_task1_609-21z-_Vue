@@ -1,1 +1,3 @@
-# responsive_web_design_task1_609-21z-_Vue
+# responsive_web_design_609-21z task1 Перенесенный на Vue.js
+## Филоненко Даниил Дмитриевич
+## Группа 609-21з, ПИ 2 курс

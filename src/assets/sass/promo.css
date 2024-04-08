@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* Стили для главного блока */
+.promo {
+  margin-bottom: 65px;
+}
+.promo p {
+  font-weight: 400;
+  margin-bottom: 262px;
+}
+@media screen and (max-width: var(--lg)) {
+  .promo p {
+    margin-bottom: 285px;
+  }
+}
+@media screen and (max-width: var(--md)) {
+  .promo p {
+    margin-bottom: 20px;
+  }
+}
+.promo span {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 800;
+  color: #ffa239;
+}
+@media screen and (max-width: var(--md)) {
+  .promo span {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: var(--sm)) {
+  .promo span {
+    font-size: 32px;
+  }
+}
+.promo h1 {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 800;
+  margin-bottom: 28px;
+}
+@media screen and (max-width: var(--md)) {
+  .promo h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: var(--sm)) {
+  .promo h1 {
+    font-size: 32px;
+  }
+}
+.promo .promo-bg {
+  height: 628px;
+  background: url(../public/bg.png) center no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: var(--lg)) {
+  .promo .promo-bg {
+    height: 670px;
+  }
+}
+@media screen and (max-width: var(--md)) {
+  .promo .promo-bg {
+    background: none;
+    height: auto;
+  }
+}
+.promo .promo-bg .promo-bg-md {
+  display: none;
+  width: 100%;
+}
+@media screen and (max-width: var(--md)) {
+  .promo .promo-bg .promo-bg-md {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.promo .promo__list li {
+  display: flex;
+  align-items: baseline;
+  font-size: 18px;
+  font-weight: 400;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.promo .promo__list li:last-child {
+  margin-bottom: 0px;
+}
+
+/* конец Стили для главного блока *//*# sourceMappingURL=promo.css.map */

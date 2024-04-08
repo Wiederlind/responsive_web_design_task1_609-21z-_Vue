@@ -1,0 +1,86 @@
+/* Стили для главного блока */
+.promo {
+  margin-bottom: 65px;
+
+  p {
+    font-weight: 400;
+    margin-bottom: 262px;
+
+    @media screen and (max-width: $lg) {
+      margin-bottom: 285px;
+    }
+
+    @media screen and (max-width: $md) {
+      margin-bottom: 20px;
+    }
+  }
+
+  span {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    color: #ffa239;
+
+    @media screen and (max-width: $md) {
+      font-size: 36px;
+    }
+
+    @media screen and (max-width: $sm) {
+      font-size: 32px;
+    }
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
+
+    @media screen and (max-width: $md) {
+      font-size: 36px;
+    }
+
+    @media screen and (max-width: $sm) {
+      font-size: 32px;
+    }
+  }
+
+  .promo-bg {
+    height: 628px;
+    background: url(../public/bg.png) center no-repeat;
+    background-size: contain;
+
+    @media screen and (max-width: $lg) {
+      height: 670px;
+    }
+
+    @media screen and (max-width: $md) {
+      background: none;
+      height: auto;
+    }
+
+    .promo-bg-md {
+        display: none;
+        width: 100%;
+        @media screen and (max-width: $md) {
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+  .promo__list li {
+    display: flex;
+    align-items: baseline;
+    font-size: 18px;
+    font-weight: 400;
+    gap: 12px;
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+/* конец Стили для главного блока */
