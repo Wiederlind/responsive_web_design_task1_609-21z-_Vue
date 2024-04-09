@@ -1,8 +1,7 @@
 <script setup>
 import {ref} from 'vue';
-// dotenv.config({ path: '.env' });
-// const botToken = process.env.BOT_TOKEN;
-// const chatId = process.env.CHAT_ID;
+const botToken = import.meta.env.VITE_BOT_TOKEN;
+const chatId = import.meta.env.VITE_CHAT_ID;
 const name = ref("");
 const question = ref("");
 const phone = ref("");
